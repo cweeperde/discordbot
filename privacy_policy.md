@@ -11,7 +11,8 @@ The bot collects and stores the following data:
 - Server-specific settings (only the IDs of roles, channels or members together with the settings value will be saved)
 
 No additional data is collected beyond what is necessary for the bot’s functions. No user messages or content are stored.
-You can delete your data, the servers data (if you are the owner running the command) or opt-out of some features by using the **/privacy** command (WARNING: THIS WILL BREAK/DISABLE SOME COMMANDS AND FEATURES)!
+You can delete most of your data, the servers data (if you are the owner running the command) or opt-out of some features by using the **/privacy** command (WARNING: THIS WILL BREAK/DISABLE SOME COMMANDS AND FEATURES)!
+Some Data such as the users ID needs to be saved in order to remember the opt-out status or other important settings.
 
 ## 2. Data Usage  
 The data collected by the bot is solely used for the following purposes:
@@ -22,8 +23,10 @@ The data collected by the bot is solely used for the following purposes:
 
 If the data is lost or removed from the database, it will simply reset the bot’s configuration, without any critical data being lost.
 
-## 3. Data Sharing  
-The bot does not share any collected data with third parties. The bot may interact with external APIs (e.g., OpenWeatherMap), but no sensitive data is submitted without explicit knowledge of the users.
+## 3. Data Sharing & Third Parties
+We do not sell or trade your personal data. To maintain server safety, we utilize the following third-party services:
+- profanity.dev: (if profanity checks are enabled) Messages are processed in real-time to detect restricted content. This service operates on a Zero-Data-Retention basis; message content is checked and immediately discarded without being stored or used for profile building. Their project is OpenSource and code can be checked if needed.
+- OpenWeatherMap: (If using the weather command) Only the location name provided in the command is shared to fetch current weather data.
 
 ## 4. Data Retention  
 Data is stored indefinitely but may be deleted occasionally for maintenance or bug fixes. If the bot is removed from a server, all data related to that server will be automatically deleted. If the bot is offline during the removal, the data will be deleted on its next boot.
