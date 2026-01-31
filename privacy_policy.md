@@ -11,6 +11,7 @@ The bot collects and stores the following data:
 - Server-specific settings (only the IDs of roles, channels or members together with the settings value will be saved)
 
 No additional data is collected beyond what is necessary for the bot’s functions. No user messages or content are stored.
+You can delete your data, the servers data (if you are the owner running the command) or opt-out of some features by using the /privacy command (WARNING: THIS WILL BREAK/DISABLE SOME COMMANDS AND FEATURES)!
 
 ## 2. Data Usage  
 The data collected by the bot is solely used for the following purposes:
