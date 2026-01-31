@@ -1,23 +1,25 @@
 # Privacy Policy
 
-**Last Updated:** 12.11.2025
+**Last Updated:** 31.01.2026
 
 ## 1. Data Collected  
 The bot collects and stores the following data:
 - User IDs
 - Server IDs
 - Channel IDs
-- Server-specific settings (which may include specified names set by users)  
+- User provided Birthday Dates (when using the /birthdays command) will be saved together with the Users ID per unique server
+- Server-specific settings (only the IDs of roles, channels or members together with the settings value will be saved)
 
 No additional data is collected beyond what is necessary for the bot’s functions. No user messages or content are stored.
 
 ## 2. Data Usage  
 The data collected by the bot is solely used for the following purposes:
 - Moderation of Discord servers
-- Server logging
-- Managing and saving server-specific settings  
+- Server event logging (bans, kicks etc.)
+- Managing and saving server-specific settings
+- Providing helpful features (like the birthday notifications)
 
-If the data is lost or removed, it will simply reset the bot’s configuration, without any critical data being lost.
+If the data is lost or removed from the database, it will simply reset the bot’s configuration, without any critical data being lost.
 
 ## 3. Data Sharing  
 The bot does not share any collected data with third parties. The bot may interact with external APIs (e.g., OpenWeatherMap), but no sensitive data is submitted without explicit knowledge of the users.
