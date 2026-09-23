@@ -4,7 +4,7 @@
 
 ## 1. Operator and contact
 
-The controller for data processing carried out by Botanaki is the bot's operator, known on Discord as **cweeper**. Bot data is hosted in Germany.
+The controller for data processing carried out by Botanaki is the bot's operator, known on Discord as **cweeper**.
 
 For privacy questions, access, correction, or deletion requests, email [botanaki@cweeper.simplelogin.com](mailto:botanaki@cweeper.simplelogin.com) or contact **cweeper** on Discord. Include the relevant user or server ID so the records can be located.
 
